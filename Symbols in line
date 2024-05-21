@@ -1,0 +1,14 @@
+a = 'agdgrwlhxldfk'
+a = 'vjvfkuvb,'
+a = 'gxpflw;sdm;s'
+b = a.find('w')
+c = a.find('x')
+print(b)
+if b == -1 or c == -1:
+    print('Символов w и/или x нет в строке')
+elif b < c:
+    print('w')
+elif b > c:
+    print('x')
+else:
+    print('Символов w и/или x нет в строке')
